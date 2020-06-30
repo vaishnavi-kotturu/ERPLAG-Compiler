@@ -23,10 +23,12 @@ Select options out of 0-9 to run different modules.<br/>
 <br/>
 Producing the binary from .asm file :<br/>
 Ubuntu 16.04<br/>
-`nasm -f elf64 -o output.o code.asm<br/>
+```nasm -f elf64 -o output.o code.asm<br/>
 gcc output.o<br/>
-./a.out`<br/>
+./a.out
+```
+<br/>
 Ubuntu 18.04 and higher versions<br/>
-`nasm -f elf64 -o output.o code.asm`<br/>
-`gcc output.o -no-pie`<br/>
-`./a.out`<br/>
+```nasm -f elf64 -o output.o code.asm<br/>
+gcc output.o -no-pie<br/>
+./a.out````
