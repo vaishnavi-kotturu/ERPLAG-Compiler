@@ -15,13 +15,13 @@ gcc version 5.0 or above<br/>
 NASM 2.14.02 (64-bit compatible)
 
 # execution
-Use `make` to compile the compiler code.<br/>
-The command line argument for execution of the driver is as follows:<br/>
+1. Use `make` to compile the compiler code.<br/>
+2. The command line argument for execution of the driver is as follows:<br/>
 `./compile testcase.txt code.asm`
 <br/>
-Select options out of 0-9 to run different modules.<br/>
+3. Select options out of 0-9 to run different modules.<br/>
 <br/>
-Producing the binary from .asm file :<br/><br/>
+4. Producing the binary from .asm file :<br/><br/>
 Ubuntu 16.04<br/>
 ```
 nasm -f elf64 -o output.o code.asm
