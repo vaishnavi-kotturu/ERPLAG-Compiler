@@ -19,17 +19,18 @@ NASM 2.14.02 (64-bit compatible)
 2. The command line argument for execution of the driver is as follows:<br/>
 `./compile testcase.txt code.asm`
 3. Select options out of 0-9 to run different modules.<br/>
-4. Producing the binary from .asm file :<br/>
--Ubuntu 16.04<br/>
-```
-nasm -f elf64 -o output.o code.asm
-gcc output.o
-./a.out
-```
-<br/>
--Ubuntu 18.04 and higher versions<br/>
-```
-nasm -f elf64 -o output.o code.asm
-gcc output.o -no-pie
-./a.out
-```
+4. Producing the binary from .asm file :
+
+  - Ubuntu 16.04
+  ```
+  nasm -f elf64 -o output.o code.asm
+  gcc output.o
+  ./a.out
+  ```
+  
+  - Ubuntu 18.04 and higher versions
+  ```
+  nasm -f elf64 -o output.o code.asm
+  gcc output.o -no-pie
+  ./a.out
+  ```
