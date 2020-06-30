@@ -22,14 +22,14 @@ NASM 2.14.02 (64-bit compatible)
 3. Select options out of 0-9 to run different modules.<br/>
 <br/>
 4. Producing the binary from .asm file :<br/><br/>
-Ubuntu 16.04<br/>
+-Ubuntu 16.04<br/>
 ```
 nasm -f elf64 -o output.o code.asm
 gcc output.o
 ./a.out
 ```
 <br/>
-Ubuntu 18.04 and higher versions<br/>
+-Ubuntu 18.04 and higher versions<br/>
 ```
 nasm -f elf64 -o output.o code.asm
 gcc output.o -no-pie
