@@ -21,7 +21,7 @@ The command line argument for execution of the driver is as follows:<br/>
 <br/>
 Select options out of 0-9 to run different modules.<br/>
 <br/>
-Producing the binary from .asm file :<br/>
+Producing the binary from .asm file :<br/><br/>
 Ubuntu 16.04<br/>
 ```
 nasm -f elf64 -o output.o code.asm
@@ -33,4 +33,5 @@ Ubuntu 18.04 and higher versions<br/>
 ```
 nasm -f elf64 -o output.o code.asm
 gcc output.o -no-pie
-./a.out````
+./a.out
+```
