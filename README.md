@@ -11,7 +11,7 @@ Implemented a compiler for ERPLAG in C as a term project for CS F363 Compiler Co
 6. Code Generation (codeGen.c)
 
 # compatibility
-gcc version 5.0 or above
+gcc version 5.0 or above<br/>
 NASM 2.14.02 (64-bit compatible)
 
 # execution
